@@ -9,9 +9,10 @@ void main() {
           title: Text('I Am Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: const Image(
-          image: NetworkImage(
-              'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'),
+        body: Center(
+          child: const Image(
+            image: AssetImage('images/diamond.png'),
+          ),
         ),
       ),
     ),
